@@ -1,6 +1,6 @@
 # App Engine Day 7 Review
 
-Today we're going to start off with a review of app engine. 
+Today we're going to start off with a review of yesterday's app engine lesson, including a walkthrough of the plumbing, query parameters, and templates. 
 
 ## Instructions
 Clone this repo, then follow along with the slides here:
