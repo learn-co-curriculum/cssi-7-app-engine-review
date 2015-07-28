@@ -14,9 +14,10 @@ class MainHandler(webapp2.RequestHandler):
         if not name_value:
             name_value = 'world'
 
-        punct_count = int(exclamations_value)
         if not exclamations_value:
             punct_count = 1
+        else:
+            punct_count = int(exclamations_value)
         punct = punct_count * "!"
         
         self.response.write('<!DOCTYPE html>')
